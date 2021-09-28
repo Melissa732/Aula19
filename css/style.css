@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Roboto Slab', serif;
+    font-size: x-large;
+    text-align: center;  
+    padding: 20px;
+}
+
+main{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}
+
+
+#listaFilmes{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap:25px;
+    margin: 0 15px;
+    flex-direction:row;
+}
+
+main{
+    display: block;
+    margin: 50px;
+    padding:auto;
+    padding-top: 0%;
+    margin-top: 9px;
+}
+
+body{
+    background-color: rgba(53, 48, 48, 0.801);
+    background-position: center;
+}
+
+.filme{
+    width: 300px;
+    margin: 15px 0;
+}
+
+.filme img{
+    width: 100%;
+}
